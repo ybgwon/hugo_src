@@ -1,0 +1,4 @@
+baseURL = "http://ybgwon.github.io/"
+languageCode = "ko-kr"
+title = "YB Gwon's ..."
+theme = "cactus"

@@ -1,0 +1,39 @@
+---
+title: "First Test"
+date: 2019-11-14T00:01:17+09:00
+draft: true
+---
+** pipenv                                                :python:virtual:pip:
+ <2019-11-12 화 18:06>
+ python virtual env를 사용하려고 문서를 찾다 보니 요즘에는
+ pipenv를 사용한다더라.
+ *주의*
+ 다른 문서른 보면 업데이트가 안되니 사용하지 말라더라 -_-;;
+
+ 어찌됐든 설치하고 사용하는 방법을 메모해 본다
+ 1. 설치
+    #+BEGIN_EXAMPLE
+    $ sudo apt install python3-pip
+    $ pip3 install --user pipenv
+    #+END_EXAMPLE
+ 2. initialize a Python 3 virtual environment
+    #+BEGIN_EXAMPLE
+    $ pipenv --three
+    ✔ Successfully created virtual environment! 
+    Virtualenv location: /home/ybgwon/.virtualenvs/ybgwon-VcvD19aq
+    #+END_EXAMPLE
+    현재 디렉토리를 project 디렉토리로 설정한다.
+ 3. project 삭제
+    #+BEGIN_EXAMPLE
+    $ pipenv --rm
+    $ rm Pipfile
+    #+END_EXAMPLE
+ 4. 사용법 보기
+    #+BEGIN_EXAMPLE
+    $ pipenv -h
+    #+END_EXAMPLE
+*** 관련 링크
+    https://github.com/pypa/pipenv
+    https://velog.io/@doondoony/pipenv-101
+    
+
